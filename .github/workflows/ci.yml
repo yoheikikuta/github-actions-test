@@ -5,9 +5,9 @@ jobs:
     unit-test:
       name: Unit test
       strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-        node: [10, 12]
+        matrix:
+          os: [ubuntu-latest, windows-latest, macos-latest]
+          node: [10, 12]
       runs-on: ${{ matrix.os }}
       steps:
         - name: Checkout
