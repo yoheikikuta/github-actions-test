@@ -4,3 +4,4 @@
 Try the GitHub Actions
 
 test
+test2
